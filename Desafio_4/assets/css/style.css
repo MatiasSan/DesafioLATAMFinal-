@@ -1,0 +1,48 @@
+:root {
+  --clr-verde: #28a745;
+  --clr-plomito: #dddddd;
+  --clr-plomo: #707070a0;
+  --clr-gris: #707070;
+  --clr-negro: #000000;
+  --clr-headerCinco: #212529;
+  --clr-whiteFondo: #ffffff;
+
+  --ff-base: "Roboto", sans-serif;
+
+  --fw-medium: 500;
+  --fw-light: 300;
+  --fw-regular: 400;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-whiteFondo);
+}
+
+h5 {
+  font-weight: 200;
+  color: var(--clr-headerCinco);
+  font-size: 15px;
+}
+
+p {
+  font-weight: 100;
+  font-size: small;
+  color: var(--clr-gris);
+}
+
+.navbar,
+.foot {
+  background-color: var(--clr-verde);
+}
+
+span {
+  color: var(--clr-verde);
+  font-weight: var(--fw-medium);
+  font-size: large;
+}
+
+i {
+  margin-right: 5px;
+}
